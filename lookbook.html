@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FARHIEN — Atmospheres Lookbook SS26</title>
+  <meta name="description" content="FARHIEN Campaign Lookbook SS26 — A visual study in light, architectural form, and tactile European luxury." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Announcement">
+    <div class="announcement-track">
+      <div class="announcement-item">
+        <span>SS26 LOOKBOOK &bull; ATMOSPHERES &bull; SHOT ON LOCATION IN FLORENCE &amp; MILAN</span>
+        <span class="dot"></span>
+        <span>COMPLIMENTARY WORLDWIDE EXPRESS DELIVERY ON ORDERS OVER $250</span>
+        <span class="dot"></span>
+      </div>
+      <div class="announcement-item">
+        <span>SS26 LOOKBOOK &bull; ATMOSPHERES &bull; SHOT ON LOCATION IN FLORENCE &amp; MILAN</span>
+        <span class="dot"></span>
+        <span>COMPLIMENTARY WORLDWIDE EXPRESS DELIVERY ON ORDERS OVER $250</span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Minimal Header -->
+  <header class="header">
+    <div class="container header-container">
+      
+      <!-- Left Navigation -->
+      <nav class="header-nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#catalogSection" class="nav-link">Collection</a>
+        <a href="lookbook.html" class="nav-link active">Lookbook</a>
+        <a href="about.html" class="nav-link">The Atelier</a>
+      </nav>
+
+      <!-- Center Logo -->
+      <div class="header-logo-wrap">
+        <a href="index.html" aria-label="FARHIEN Home">
+          <img src="assets/farhien-logo.png" alt="FARHIEN" class="brand-logo-img" />
+        </a>
+      </div>
+
+      <!-- Right Actions -->
+      <div class="header-actions">
+        <div class="currency-select-wrap">
+          <select id="currencySelector" class="currency-select" aria-label="Select Currency">
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+          </select>
+        </div>
+
+        <button class="action-btn" onclick="openSearch()" aria-label="Search garments">
+          <svg class="action-icon" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span class="hide-mobile">Search</span>
+        </button>
+
+        <button class="action-btn" onclick="openCart()" aria-label="View Shopping Bag">
+          <svg class="action-icon" viewBox="0 0 24 24">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span>Bag</span>
+          <span id="cartCountBadge" class="cart-count-badge">0</span>
+        </button>
+
+        <button class="menu-toggle-btn" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Editorial Lookbook Hero -->
+  <section class="container" style="padding: 4rem 1.5rem 3rem; text-align: center;">
+    <span class="section-eyebrow">Visual Study // SS26</span>
+    <h1 style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 800; text-transform: uppercase; letter-spacing: -0.02em; margin-bottom: 1rem;">
+      Atmospheres
+    </h1>
+    <p style="font-size: 1.0625rem; color: var(--color-text-muted); max-width: 620px; margin: 0 auto; line-height: 1.7;">
+      An exploration of architectural drapery, tactile wools, and organic Japanese drills against brutalist monolithic concrete.
+    </p>
+  </section>
+
+  <!-- Lookbook Editorial Stories -->
+  <main class="container" style="display: flex; flex-direction: column; gap: 6rem; padding-bottom: 8rem;">
+    
+    <!-- Look 01 -->
+    <article style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 3rem; align-items: center;">
+      <div style="aspect-ratio: 4/5; background-color: var(--color-surface-subtle); overflow: hidden; position: relative;">
+        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=1200&q=80" alt="Look 01 - Double-Breasted Wool Overcoat" style="width: 100%; height: 100%; object-fit: cover;" />
+        <span class="card-badge" style="top: 20px; left: 20px;">Look 01</span>
+      </div>
+      <div>
+        <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-text-muted);">Florence Atelier</span>
+        <h2 style="font-family: var(--font-display); font-size: 2.25rem; font-weight: 800; text-transform: uppercase; margin: 0.5rem 0 1rem;">
+          The Overcoat In Motion
+        </h2>
+        <p style="font-size: 0.9375rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: 2rem;">
+          650 GSM Melton wool sheared from ethical Biella flocks. Sculpted with a lowered button stance and wide peak lapels that accentuate natural shoulder roll.
+        </p>
+        <div style="border-top: 1px solid var(--color-border); padding-top: 1.5rem; display: flex; align-items: center; justify-content: space-between;">
+          <div>
+            <h4 style="font-size: 0.9375rem; font-weight: 600;">Double-Breasted Wool Overcoat</h4>
+            <span style="font-size: 0.8125rem; color: var(--color-text-muted);">$580 &bull; 100% Virgin Wool</span>
+          </div>
+          <a href="product.html?id=fh-001" class="btn-dark" style="padding: 0.75rem 1.5rem;">Shop Look</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Look 02 (Inverted) -->
+    <article style="display: grid; grid-template-columns: 1fr 1.4fr; gap: 3rem; align-items: center;">
+      <div style="order: 1;">
+        <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-text-muted);">Porto Workshop</span>
+        <h2 style="font-family: var(--font-display); font-size: 2.25rem; font-weight: 800; text-transform: uppercase; margin: 0.5rem 0 1rem;">
+          Japanese Drill Boxy Silhouette
+        </h2>
+        <p style="font-size: 0.9375rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: 2rem;">
+          Structured cotton drill woven at high tension on heritage shuttle looms in Kojima. Paired with forward-pleated wool silk trousers for an expansive silhouette.
+        </p>
+        <div style="border-top: 1px solid var(--color-border); padding-top: 1.5rem; display: flex; align-items: center; justify-content: space-between;">
+          <div>
+            <h4 style="font-size: 0.9375rem; font-weight: 600;">Structured Boxy Overshirt</h4>
+            <span style="font-size: 0.8125rem; color: var(--color-text-muted);">$320 &bull; Raw Ecru</span>
+          </div>
+          <a href="product.html?id=fh-002" class="btn-dark" style="padding: 0.75rem 1.5rem;">Shop Look</a>
+        </div>
+      </div>
+      <div style="aspect-ratio: 4/5; background-color: var(--color-surface-subtle); overflow: hidden; position: relative; order: 2;">
+        <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=80" alt="Look 02 - Structured Boxy Overshirt" style="width: 100%; height: 100%; object-fit: cover;" />
+        <span class="card-badge" style="top: 20px; left: 20px;">Look 02</span>
+      </div>
+    </article>
+
+    <!-- Look 03 -->
+    <article style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 3rem; align-items: center;">
+      <div style="aspect-ratio: 4/5; background-color: var(--color-surface-subtle); overflow: hidden; position: relative;">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80" alt="Look 03 - Brushed Mohair Knit" style="width: 100%; height: 100%; object-fit: cover;" />
+        <span class="card-badge" style="top: 20px; left: 20px;">Look 03</span>
+      </div>
+      <div>
+        <span style="font-size: 0.75rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-text-muted);">Prato Atelier</span>
+        <h2 style="font-family: var(--font-display); font-size: 2.25rem; font-weight: 800; text-transform: uppercase; margin: 0.5rem 0 1rem;">
+          Cloud Texture &amp; Heavy Slouch
+        </h2>
+        <p style="font-size: 0.9375rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: 2rem;">
+          Hand-brushed South African kid mohair and fine baby alpaca create a hazy, tactile halo. Designed with an exaggerated drop-shoulder and snug ribbed cuffs.
+        </p>
+        <div style="border-top: 1px solid var(--color-border); padding-top: 1.5rem; display: flex; align-items: center; justify-content: space-between;">
+          <div>
+            <h4 style="font-size: 0.9375rem; font-weight: 600;">Brushed Mohair Knit Sweater</h4>
+            <span style="font-size: 0.8125rem; color: var(--color-text-muted);">$360 &bull; Fog Sand</span>
+          </div>
+          <a href="product.html?id=fh-004" class="btn-dark" style="padding: 0.75rem 1.5rem;">Shop Look</a>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Slide-Over Cart Drawer -->
+  <div id="cartBackdrop" class="cart-backdrop" onclick="if(event.target === this) closeCart()">
+    <aside class="cart-drawer" role="dialog" aria-labelledby="cartDrawerTitle" aria-modal="true">
+      <div class="cart-header">
+        <h2 id="cartDrawerTitle" class="cart-title">
+          Shopping Bag <span id="cartHeaderCount" style="font-weight: 400; color: var(--color-text-muted);">(0)</span>
+        </h2>
+        <button class="close-btn" onclick="closeCart()" aria-label="Close Bag">&times;</button>
+      </div>
+
+      <div class="shipping-progress-wrap">
+        <div id="shippingProgressText" class="shipping-progress-text">
+          Orders over <strong>$250</strong> receive complimentary shipping.
+        </div>
+        <div class="shipping-meter-bar">
+          <div id="shippingMeterFill" class="shipping-meter-fill"></div>
+        </div>
+      </div>
+
+      <div id="cartItemsContainer" class="cart-items-container"></div>
+
+      <div class="cart-footer">
+        <div class="promo-row">
+          <input type="text" id="promoInput" class="promo-input" placeholder="PROMO CODE (e.g. FARHIEN10)" aria-label="Promotion Code" />
+          <button class="promo-btn" onclick="applyPromoCode()">Apply</button>
+        </div>
+
+        <div class="cart-calc-row">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">$0</span>
+        </div>
+
+        <div id="discountRow" class="cart-calc-row" style="display: none; color: var(--color-success);">
+          <span>Privilege Discount</span>
+          <span id="discountValue">-$0</span>
+        </div>
+
+        <div class="cart-calc-row">
+          <span>Worldwide Shipping</span>
+          <span style="font-weight: 500; color: var(--color-black);">Complimentary</span>
+        </div>
+
+        <div class="cart-calc-row total">
+          <span>Estimated Total</span>
+          <span id="cartTotal">$0</span>
+        </div>
+
+        <button class="checkout-btn" onclick="handleCheckout()">Proceed To Checkout</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Search Overlay -->
+  <div id="searchBackdrop" class="search-backdrop">
+    <div class="search-container">
+      <div class="search-bar-top">
+        <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600;">Search FARHIEN Archive</span>
+        <button class="close-btn" onclick="closeSearch()" aria-label="Close search">&times;</button>
+      </div>
+
+      <div class="search-input-wrap">
+        <input type="text" id="searchInput" class="search-input" placeholder="TYPE TO SEARCH GARMENTS..." aria-label="Search garments" />
+      </div>
+
+      <div class="search-suggestions">
+        <span class="search-suggestions-title">Trending Searches</span>
+        <div class="search-tags">
+          <button class="search-tag-chip" onclick="applySearchTag('Overcoat')">Overcoat</button>
+          <button class="search-tag-chip" onclick="applySearchTag('Pleated')">Pleated Trousers</button>
+          <button class="search-tag-chip" onclick="applySearchTag('Mohair')">Mohair Knit</button>
+          <button class="search-tag-chip" onclick="applySearchTag('Trench')">Trench Coat</button>
+          <button class="search-tag-chip" onclick="applySearchTag('Blazer')">Blazer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobileNavBackdrop" class="mobile-nav-backdrop" onclick="if(event.target === this) closeMobileMenu()">
+    <div class="mobile-nav-drawer" role="dialog" aria-modal="true">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <img src="assets/farhien-logo.png" alt="FARHIEN" style="height: 24px;" />
+        <button class="close-btn" onclick="closeMobileMenu()">&times;</button>
+      </div>
+
+      <div class="mobile-links">
+        <a href="index.html" class="mobile-link" onclick="closeMobileMenu();">Home</a>
+        <a href="index.html#catalogSection" class="mobile-link" onclick="closeMobileMenu();">Collection</a>
+        <a href="lookbook.html" class="mobile-link" onclick="closeMobileMenu();">Lookbook</a>
+        <a href="about.html" class="mobile-link" onclick="closeMobileMenu();">The Atelier</a>
+      </div>
+
+      <div style="margin-top: auto; border-top: 1px solid var(--color-border); padding-top: 1.5rem; font-size: 0.8125rem; color: var(--color-text-muted);">
+        <p>FLORENCE &bull; PORTO &bull; COPENHAGEN</p>
+        <p style="margin-top: 0.5rem;">concierge@farhien.com</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Complete Modal -->
+  <div id="checkoutModalBackdrop" class="modal-backdrop" onclick="if(event.target === this) closeCheckoutModal()">
+    <div class="checkout-modal-content" role="dialog" aria-modal="true">
+      <div class="checkout-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <h3 class="checkout-modal-title">Order Confirmed</h3>
+      <p class="checkout-modal-p">
+        Thank you for choosing FARHIEN. Your bespoke garments have been reserved with our atelier. A courier tracking notification will be dispatched prior to shipment.
+      </p>
+
+      <div style="background-color: var(--color-surface-subtle); padding: 1.25rem; margin-bottom: 2rem; border: 1px solid var(--color-border); text-align: left; font-size: 0.8125rem;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+          <span style="color: var(--color-text-muted);">Order Reference:</span>
+          <strong id="orderReferenceCode" style="font-family: var(--font-body); letter-spacing: 0.05em;">FRH-829104</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+          <span style="color: var(--color-text-muted);">Total Paid:</span>
+          <strong id="orderFinalAmount">$0</strong>
+        </div>
+      </div>
+
+      <button class="btn-dark" style="width: 100%;" onclick="closeCheckoutModal()">Return To Atelier</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/farhien-logo.png" alt="FARHIEN" class="footer-logo-img" />
+          <p class="footer-brand-p">
+            Contemporary ready-to-wear rooted in architectural proportions, quiet luxury, and enduring European craftsmanship.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Collections</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#catalogSection" class="footer-link">Spring/Summer 2026</a></li>
+            <li><a href="lookbook.html" class="footer-link">Campaign Lookbook</a></li>
+            <li><a href="about.html" class="footer-link">Atelier Traceability</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Client Concierge</h4>
+          <ul class="footer-links">
+            <li><a href="javascript:void(0)" class="footer-link" onclick="showToast('Global express delivery within 2-4 business days.')">Complimentary Delivery</a></li>
+            <li><a href="javascript:void(0)" class="footer-link" onclick="showToast('Hassle-free 30-day global returns & exchanges.')">Returns &amp; Exchanges</a></li>
+            <li><a href="javascript:void(0)" class="footer-link" onclick="showToast('Atelier concierge: concierge@farhien.com')">Private Concierge</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Atelier &amp; Legal</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">Design Philosophy</a></li>
+            <li><a href="javascript:void(0)" class="footer-link" onclick="showToast('Flagship atelier opening in Milan, Fall 2026.')">Atelier Flagship</a></li>
+            <li><a href="javascript:void(0)" class="footer-link" onclick="showToast('Privacy Policy: We never sell client data.')">Privacy &amp; Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 FARHIEN ATELIER. ALL RIGHTS RESERVED.</span>
+        <span>DESIGNED FOR DISCERNING TASTE</span>
+        <span>GLOBAL SHIPPING FROM FLORENCE &amp; PORTO</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>
